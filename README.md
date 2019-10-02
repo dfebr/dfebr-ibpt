@@ -1,9 +1,11 @@
 # DFeBR.IBPT
 
 **Oque é**
+
 DFeBR.IBPT é uma lib escrita em .NET Standard cujo o objetivo é simplificar a busca de alíquotas IBPT por NCM, afim de agilizar e facilitar o processo de cálculo de impostos para documentos fiscais.
 
 **A quem se destina**
+
 A todos os desenvolvedores de NFC-e e NF-e na plataforma .NET
 
 **Como instalar**
@@ -11,6 +13,7 @@ A todos os desenvolvedores de NFC-e e NF-e na plataforma .NET
   **Install-Package DFeBR.IBPT -Version 1.0.0** | ou mais alto
 
 **Funcionamento**
+
 A lib realiza as consultas em um arquivo de dados SQLite3.
 Esse arquivo deve ser gerado utilizando a ferramenta de linha de comando **"IbptGen.exe"** disponível no diretório do seu projeto após a instalação via NuGet.
 
