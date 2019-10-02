@@ -37,8 +37,14 @@ Esta tarefa é incrivelmente simples:
 Caso a consulta tenha sucesso, voce terá o objeto "AliquotaIBPT" com as seguintes propriedades:
 
 NCM (string)
+
 AliquotaFederal (decimal)
+
 AliquotaEstadual (decimal)
+
 AliquotaMunicipal (decimal)
+
 AliquotaImportado (decimal)
+
 Versao (string)
+
