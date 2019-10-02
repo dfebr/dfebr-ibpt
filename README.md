@@ -20,7 +20,9 @@ Esse arquivo deve ser gerado utilizando a ferramenta de linha de comando **"Ibpt
 Voce precisa ter em mãos o arquivo CSV **oficial** obtido através do site www.deolhonoimposto.ibpt.org.br.
 
 Com o arquivo, execute a ferramenta de linha de comando da seguinte maneira:
+
 **ATENÇÃO:**
+
 Somente serão suportados os arquivos **OFICIAIS** obtidos no site acima. Tenha certeza de que os CSV's foram obtidos da fonte correta e confiável para garantir o bom funcionamento da DLL.
 
   **IbptGen.exe --gen "caminho do CSV"**
