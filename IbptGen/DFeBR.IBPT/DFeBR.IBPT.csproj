@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Ferramenta integrada na plataforma .NET para realizar busca de aliquotas IBPT</Description>
+    <PackageProjectUrl>https://github.com/dfebr/dfebr-ibpt</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dfebr/dfebr-ibpt</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="IbptGen.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="IbptGen.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.111" />
+  </ItemGroup>
+
+</Project>
