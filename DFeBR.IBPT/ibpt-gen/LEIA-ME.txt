@@ -1,0 +1,21 @@
+﻿Antes de utilizar o DFeBR.IBPT, deve ser gerado
+o arquivo de dados (sqlite3) para realizar as buscas 
+das aliquotas
+
+Para fazer isso, tenha em mãos o arquivo CSV *** OFICIAL ***
+obtido através do site http://www.deolhonoimposto.ibpt.org.br/
+
+Com o CSV, execute o utilitário "IbptGen.exe" através do CMD ou Windows Shell
+da seguinte maneira:
+
+	IbptGen.exe --gen "caminho do CSV"
+
+A ferramenta irá devolver o arquivo de dados (sqlite3) com a 
+estrutura necessária para funcionamento da lib "DFeBR.IBPT"
+
+Coloque o arquivo de dados em um local acessível a sua aplicação,
+e efetue as buscas de aliquotas no seu código da seguinte maneira
+
+
+   BuscaIBPT busca = new BuscaIBPT(@".\IBPT.sqlite3"); //caminho do arquivo de dados
+   AliquotaIBPT aliquota = busca.Buscar("01013000"); //NCM do produto

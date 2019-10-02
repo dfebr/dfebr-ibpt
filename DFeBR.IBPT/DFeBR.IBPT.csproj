@@ -6,14 +6,21 @@
     <Description>Ferramenta integrada na plataforma .NET para realizar busca de aliquotas IBPT</Description>
     <PackageProjectUrl>https://github.com/dfebr/dfebr-ibpt</PackageProjectUrl>
     <RepositoryUrl>https://github.com/dfebr/dfebr-ibpt</RepositoryUrl>
+    <Version>1.1.1.0</Version>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <FileVersion>1.1.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ibpt-gen\LEIA-ME.txt" />
     <None Remove="IbptGen.exe" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="IbptGen.exe">
+    <Content Include="ibpt-gen\IbptGen.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ibpt-gen\LEIA-ME.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
