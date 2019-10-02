@@ -21,11 +21,11 @@ Voce precisa ter em mãos o arquivo CSV **oficial** obtido através do site www.
 
 Com o arquivo, execute a ferramenta de linha de comando da seguinte maneira:
 
+  **IbptGen.exe --gen "caminho do CSV"**
+  
 **ATENÇÃO:**
 
 Somente serão suportados os arquivos **OFICIAIS** obtidos no site acima. Tenha certeza de que os CSV's foram obtidos da fonte correta e confiável para garantir o bom funcionamento da DLL.
-
-  **IbptGen.exe --gen "caminho do CSV"**
   
 Após executar o comando, a ferramenta devolverá o arquivo .sqlite3 no mesmo diretório onde foi executada.
 Com o arquivo de dados (sqlite3) em mãos, podemos começar a codificar.
